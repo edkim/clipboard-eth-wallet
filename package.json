@@ -1,0 +1,20 @@
+{
+  "name": "clipboard-wallet-generator",
+  "version": "1.0.0",
+  "description": "Generate Ethereum wallet and copy private key to clipboard",
+  "main": "generate-wallet.ts",
+  "type": "module",
+  "scripts": {
+    "generate": "tsx generate-wallet.ts"
+  },
+  "dependencies": {
+    "clipboardy": "^3.0.0",
+    "ethers": "^6.14.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.19",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  }
+}
