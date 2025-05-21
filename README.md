@@ -2,14 +2,6 @@
 
 A secure command-line tool that generates an Ethereum wallet and copies its private key to your clipboard.
 
-## Overview
-
-This tool helps you securely generate an Ethereum wallet by:
-1. Creating a new random wallet using ethers.js
-2. Copying the private key to your clipboard
-3. Displaying the wallet's public address
-4. Automatically clearing your clipboard after you've pasted the key
-
 ## Setup
 
 1. Install dependencies:
